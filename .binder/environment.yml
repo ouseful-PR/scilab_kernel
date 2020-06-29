@@ -1,0 +1,8 @@
+name: scilab installer
+channels:
+  - conda-forge
+dependencies:
+  - scilab
+  - pip
+  - pip:
+    - .
